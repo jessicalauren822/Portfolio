@@ -4,6 +4,9 @@
     --tertiary-color:#16dbff;
 }
 
+* {
+}
+
 body {
     background: black
 }
@@ -59,4 +62,36 @@ header nav ul {
 .description {
     font-size: 20px;
     color: var(--secondary-color);
+}
+
+.Projects {
+    background: var(--secondary-color);
+}
+
+.Projects h2 {
+    font-size: 75px;
+    color: var(--tertiary-color);
+}
+
+.project-examples img {
+    width: 300px;
+    height: 300px;
+}
+
+.Contact {
+    background: var(--tertiary-color);
+}
+
+.Contact h2 {
+    font-size: 75px;
+    color: var(--secondary-color);
+}
+
+.Contact p {
+    font-size: 20px;
+    color: var(--secondary-color);    
+}
+
+.contact-header {
+    font-weight: bold;
 }
