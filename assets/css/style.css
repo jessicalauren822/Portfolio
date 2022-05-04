@@ -1,0 +1,25 @@
+:root {
+    --primary-color: #000;
+    --secondary-color: #b026ff;
+    --tertiary-color:#16dbff;
+}
+
+body {
+    background: black
+}
+
+header {
+    background: var(--secondary-color);
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: right;
+    list-style: none;
+}
+
+.nav li a {
+    color: var(--tertiary-color);
+}
