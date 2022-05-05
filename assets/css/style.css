@@ -4,27 +4,15 @@
     --tertiary-color:#16dbff;
 }
 
-* {
-}
-
 body {
     background: black
 }
 
 /*Header*/
 
-header {
-    background: var(--secondary-color);
-}
-.name {
-color: #000;
-text-shadow:0 0 7px #16dbff, 0 0 10px #16dbff, 0 0 21px #16dbff, 0 0 42px #16dbff, 0 0 82px #16dbff, 0 0 92px #16dbff, 0 0 102px #16dbff, 0 0 151px #16dbff;
-}
-
-header h1 {
-    align-items: left;
-    font-family: sans-serif;
-    font-size: 70px;
+header nav {
+    background: rgba(176,38,255,0.8);
+    padding: 20px 5px;
 }
 
 header nav ul {
@@ -37,16 +25,39 @@ header nav ul {
 
 .nav li a {
     color: var(--tertiary-color);
-    font-size: 40px;
+    font-size: 45px;
     padding: 15px;
+    font-weight: bold;
     text-decoration: none;
-
 }
+
+.name {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 0 0 7px #16dbff, 0 0 10px #16dbff, 0 0 21px #16dbff, 0 0 42px #38b6ff, 0 0 82px #38b6ff, 0 0 92px #38b6ff, 0 0 102px #38b6ff, 0 0 151px #38b6ff;
+    animation: flicker 1.5s infinite alternate;
+}
+
+@keyframes flicker {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+        text-shadow: 0 0 4px #16dbff, 0 0 11px #16dbff, 0 0 19px #16dbff, 0 0 40px #38b6ff, 0 0 80px #38b6ff, 0 0 90px #38b6ff, 0 0 100px #38b6ff, 0 0 150px #38b6ff;
+    }
+    20%, 24%, 55% {
+        text-shadow: none;
+    }
+}
+    
+header h1 {
+     align-items: left;
+    font-family: sans-serif;
+    font-size: 100px;
+}    
 
 /*About Section*/
 
 .About {
-    background: var(--tertiary-color);
+    background: rgba(22,219,255, 0.8);
 }
 
 .About h2 {
@@ -62,12 +73,13 @@ header nav ul {
 .description {
     font-size: 20px;
     color: var(--secondary-color);
+    
 }
 
 /*Projects Section*/
 
 .Projects {
-    background: var(--secondary-color);
+    background: rgba(176,38,255, 0.8);
 }
 
 .Projects h2 {
@@ -104,7 +116,7 @@ margin: 5px;
 /*Contact Section*/
 
 .Contact {
-    background: var(--tertiary-color);
+    background: rgba(22,219,255, 0.8);
 }
 
 .Contact h2 {
