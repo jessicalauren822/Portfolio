@@ -43,7 +43,7 @@ header nav ul {
 
 }
 
-/*About*/
+/*About Section*/
 
 .About {
     background: var(--tertiary-color);
@@ -64,6 +64,8 @@ header nav ul {
     color: var(--secondary-color);
 }
 
+/*Projects Section*/
+
 .Projects {
     background: var(--secondary-color);
 }
@@ -73,10 +75,33 @@ header nav ul {
     color: var(--tertiary-color);
 }
 
-.project-examples img {
-    width: 300px;
-    height: 300px;
+.Projects p {
+font-size: 25px;
+color: var(--tertiary-color);
+font-weight: bold;
+margin: 5px;
 }
+
+.recent-project img {
+    width: 650px;
+    height: 650px;
+}
+
+.placeholder-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.placeholder-projects img {
+    width: 400px;
+    height: 400px;
+}
+
+
+/*Contact Section*/
 
 .Contact {
     background: var(--tertiary-color);
