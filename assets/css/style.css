@@ -148,3 +148,23 @@ header h1 {
 .Contact span {
     font-size: 20px;
 }
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
+@media screen and (max-width: 800px) {
+
+.About .bio p {
+    width: 50%;
+    font-size: 150%;
+}
+
+.About .bio img {
+    width: 50%;
+    height: 50%;
+}
+
+.Projects img {
+    width: 98%;
+    height: 98%;
+}
+
+}
