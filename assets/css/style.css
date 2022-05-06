@@ -94,31 +94,33 @@ header h1 {
     color: var(--tertiary-color);
 }
 
-.Projects p {
-font-size: 25px;
-color: var(--tertiary-color);
-font-weight: bold;
-margin: 5px;
-}
-
-.recent-project img {
-    width: 650px;
-    height: 650px;
-}
-
-.placeholder-projects {
+.placeholder-projects-1, .placeholder-projects-2 {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: space-around;
     align-items: center;
 }
 
-.placeholder-projects img {
+.Projects img {
     width: 400px;
     height: 400px;
 }
 
+.Projects p {
+    font-size: 25px;
+    color: var(--tertiary-color);
+    font-weight: bold;
+    margin: 5px;
+    text-align: center;
+    }
 
+.recent-project img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    height: 650px;
+}
+    
 /*Contact Section*/
 
 .Contact {
@@ -128,6 +130,13 @@ margin: 5px;
 .Contact h2 {
     font-size: 75px;
     color: var(--secondary-color);
+}
+
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .Contact p {
