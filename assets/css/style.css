@@ -65,15 +65,22 @@ header h1 {
     color: var(--secondary-color);
 }
 
-.headshot img {
+.bio {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bio img {
     width: 500px;
     height: 550px;
 }
 
-.description {
+.bio p {
     font-size: 20px;
     color: var(--secondary-color);
-    
+    text-align: center;
+    width: 500px;
 }
 
 /*Projects Section*/
